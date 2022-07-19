@@ -1,0 +1,13 @@
+.user {
+    float: left;
+    width: max-content;
+}
+
+.message {
+    float: left;
+    width: 80%;
+}
+
+.sendButtonForm {
+    float: left;
+}

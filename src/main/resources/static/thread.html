@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Permission</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="thread.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link href="thread.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div style="margin: 10px;">
+
+    <div class="ui card">
+
+        <div class="ui labeled input content">
+            <div class="ui label">
+                name
+            </div>
+            <input id="txtName" type="text">
+        </div>
+
+        <div class="ui labeled input content">
+            <div class="ui label">
+                password
+            </div>
+            <input id="txtPassword" type="text">
+        </div>
+
+        <div class="extra content">
+            <div class="ui two buttons">
+                <div id="btnLogin" class="ui basic green button">Login</div>
+                <div class="ui basic red button">Logout</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="permissionList" class="ui card relaxed divided list" style="padding: 10px;">
+    </div>
+
+</div>
+
+<div id="permissionTemplate" class="item">
+    <i class="large github middle aligned icon"></i>
+    <div class="content">
+        <a class="header">header</a>
+        <div class="description">description</div>
+    </div>
+</div>
+
+</html>
